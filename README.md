@@ -38,36 +38,60 @@
 
 ## 本地开发与运行
 
+### 快速开始
+
 1. **克隆项目**
    ```bash
    git clone https://github.com/HovanZhang2k/Northeast-Chinese-Association.git
    cd Northeast-Chinese-Association
    ```
+
 2. **安装依赖**
-```bash
-npm install
-```
-3. **（可选）新建本地环境配置文件**
-   - 如需自定义本地环境变量，可在项目根目录下新建 `.env.local` 文件。
-   - 一般无需手动创建，除非有特殊配置需求。
-4. **启动开发服务器**
-```bash
-npm run dev
-   # 或 yarn dev
-```
-5. **构建生产版本**
-```bash
-npm run build
-```
-6. **本地预览生产构建**
-```bash
+   ```bash
+   npm install
+   ```
+
+3. **启动开发服务器**
+   ```bash
    npm run dev
    ```
+   
+   启动成功后，访问 [http://localhost:3000](http://localhost:3000) 即可预览网站。
+
+### 其他命令
+
+- **构建生产版本**
+  ```bash
+  npm run build
+  ```
+
+- **预览生产构建**
+  ```bash
+  npm run preview
+  ```
+
+### 主要依赖
+
+项目使用以下核心技术栈：
+- **Vue 3** - 前端框架
+- **Vue Router** - 路由管理
+- **Vue I18n** - 国际化支持
+- **Element Plus** - UI 组件库
+- **Pinia** - 状态管理
+- **Vite** - 构建工具
+- **Sass** - CSS 预处理器
+
+### 环境要求
+
+- Node.js >= 16.0.0
+- npm >= 8.0.0
+
+### 可选配置
+
+如需自定义本地环境变量，可在项目根目录下新建 `.env.local` 文件。一般情况下无需手动创建。
 
 > 推荐使用 [Visual Studio Code](https://code.visualstudio.com/) 编辑器进行开发，配合官方 Vue、ESLint、Prettier 等插件获得更佳体验。
 
 ---
 
 如需自定义部署或二次开发，可 fork 本仓库后根据自身需求修改页面内容与样式。 
-
-find src -type f -size +5M 
