@@ -25,7 +25,10 @@ export default {
     email: '邮箱：info@necommunity.com',
     emailPrefix: 'contact',
     emailSuffix: 'necommunity.com',
-    copyright: '东北同乡会 © 2024 版权所有'
+    copyright: '© 2025 东北同乡会版权所有',
+    poweredBy: 'Powered by',
+    developer: 'Hovan Zhang',
+    developerLink: 'https://github.com/HovanZhang2k'
   },
   common: {
     home: '首页',
@@ -61,7 +64,7 @@ export default {
     socialLogin: '其他登录方式',
     wechatLogin: '微信登录',
     qqLogin: 'QQ登录',
-    associationInfo: '东北同乡会 © 2024 版权所有',
+
     loginSuccess: '登录成功',
     registerSuccess: '注册成功',
     

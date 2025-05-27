@@ -24,7 +24,10 @@ export default {
     address: 'Address: City Center Street',
     phone: 'Phone: 123-456-7890',
     email: 'Email: info@necommunity.com',
-    copyright: 'Northeast Chinese Association. All Rights Reserved'
+    copyright: '© 2025 Northeast Chinese Association. All Rights Reserved',
+    poweredBy: 'Powered by',
+    developer: 'Hovan Zhang',
+    developerLink: 'https://github.com/HovanZhang2k'
   },
   common: {
     home: 'Home',
@@ -60,7 +63,7 @@ export default {
     socialLogin: 'Social Account Login',
     wechatLogin: 'WeChat Login',
     qqLogin: 'QQ Login',
-    associationInfo: 'By logging in or registering, you will become a member of Northeast Chinese Association and can participate in all activities',
+
     loginSuccess: 'Login successful!',
     registerSuccess: 'Registration successful! You are now a member of Northeast Chinese Association.',
     termsContent: {

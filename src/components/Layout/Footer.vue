@@ -54,7 +54,13 @@
       </div>
       
       <div class="copyright">
-        <p>&copy; {{ new Date().getFullYear() }} {{ $t('footer.copyright') }}</p>
+        <p>{{ $t('footer.copyright') }}</p>
+        <p class="powered-by">
+          {{ $t('footer.poweredBy') }} 
+          <a :href="$t('footer.developerLink')" target="_blank" rel="noopener noreferrer" class="developer-link">
+            {{ $t('footer.developer') }}
+          </a>
+        </p>
       </div>
     </div>
   </footer>
@@ -217,6 +223,27 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
+    
+    p {
+      margin: 5px 0;
+    }
+    
+    .powered-by {
+      margin-top: 8px;
+      font-size: 13px;
+      
+      .developer-link {
+        color: #d71920;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        
+        &:hover {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
 

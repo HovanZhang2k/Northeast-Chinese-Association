@@ -21,7 +21,7 @@ export default {
     socialLogin: '其他登录方式',
     wechatLogin: '微信登录',
     qqLogin: 'QQ登录',
-    associationInfo: '昆士兰东北同乡会 © 2024 版权所有',
+
     loginSuccess: '登录成功',
     registerSuccess: '注册成功',
     

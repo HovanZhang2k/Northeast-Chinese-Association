@@ -141,9 +141,7 @@
             </div>
           </div>
           
-          <div class="association-info">
-            <p>{{ $t('auth.associationInfo') }}</p>
-          </div>
+
         </div>
       </div>
     </div>
@@ -600,12 +598,7 @@ const submitRegisterForm = () => {
     }
   }
   
-  .association-info {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 14px;
-    color: #666;
-  }
+
 }
 
 // 响应式调整
