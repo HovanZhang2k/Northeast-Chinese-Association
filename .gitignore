@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js 依赖
+node_modules/
+
+# 构建产物
+dist/
+build/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 本地环境配置
+.env.local
+.env.*.local
+
+# 其他临时文件
+*.swp
+*.swo
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.webp
+
+# 忽略 node_modules 目录，避免大文件（例如 esbuild、sass 等）被提交
+node_modules/

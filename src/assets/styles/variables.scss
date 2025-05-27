@@ -1,0 +1,65 @@
+// 中澳主题色变量
+
+// 主色调
+$china-red: #d71920;
+$china-red-dark: #8a0c20;
+$australia-blue: #143d8a;
+$australia-blue-dark: #0a2540;
+
+// 渐变色
+$china-australia-gradient: linear-gradient(90deg, $china-red 0%, $china-red-dark 30%, $australia-blue 70%, $australia-blue-dark 100%);
+$china-australia-gradient-vertical: linear-gradient(180deg, $china-red 0%, $australia-blue 100%);
+$china-australia-gradient-btn: linear-gradient(135deg, $china-red, $australia-blue);
+
+// 辅助色
+$accent-yellow: #ffc107;
+$text-dark: #333;
+$text-medium: #666;
+$text-light: rgba(255, 255, 255, 0.9);
+$border-light: rgba(255, 255, 255, 0.2);
+
+// 背景色
+$bg-light: #f9fafc;
+$bg-dark: #0a2540;
+$bg-card: #fff;
+$bg-hover: rgba(255, 255, 255, 0.2);
+
+// 阴影
+$shadow-light: 0 4px 10px rgba(0, 0, 0, 0.08);
+$shadow-medium: 0 6px 20px rgba(0, 0, 0, 0.12);
+$shadow-hover: 0 12px 30px rgba(0, 0, 0, 0.15);
+
+// 圆角
+$border-radius-small: 4px;
+$border-radius-medium: 6px;
+$border-radius-large: 10px;
+
+:root {
+  --china-red: #{$china-red};
+  --china-red-dark: #{$china-red-dark};
+  --australia-blue: #{$australia-blue};
+  --australia-blue-dark: #{$australia-blue-dark};
+  
+  --gradient-horizontal: #{$china-australia-gradient};
+  --gradient-vertical: #{$china-australia-gradient-vertical};
+  --gradient-button: #{$china-australia-gradient-btn};
+  
+  --accent-yellow: #{$accent-yellow};
+  --text-dark: #{$text-dark};
+  --text-medium: #{$text-medium};
+  --text-light: #{$text-light};
+  --border-light: #{$border-light};
+  
+  --bg-light: #{$bg-light};
+  --bg-dark: #{$bg-dark};
+  --bg-card: #{$bg-card};
+  --bg-hover: #{$bg-hover};
+  
+  --shadow-light: #{$shadow-light};
+  --shadow-medium: #{$shadow-medium};
+  --shadow-hover: #{$shadow-hover};
+  
+  --border-radius-small: #{$border-radius-small};
+  --border-radius-medium: #{$border-radius-medium};
+  --border-radius-large: #{$border-radius-large};
+} 
