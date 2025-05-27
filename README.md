@@ -4,7 +4,7 @@
 
 - **项目类型**：纯前端（无后端服务）
 - **技术栈**：Vue3 + Element Plus + Vue Router + i18n
-- **部署地址**：[@GitHub Pages](https://hovanzhang2k.github.io/Northeast-Chinese-Association/) 的 pages 分支，可在线预览部分基础页面效果。
+- **预览效果**：[GitHub Pages](https://hovanzhang2k.github.io/Northeast-Chinese-Association/) 的 pages 分支，可在线预览部分基础页面效果。
 
 ## 主要页面
 
