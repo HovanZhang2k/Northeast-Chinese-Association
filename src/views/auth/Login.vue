@@ -140,8 +140,6 @@
               </el-button>
             </div>
           </div>
-          
-
         </div>
       </div>
     </div>
@@ -597,8 +595,6 @@ const submitRegisterForm = () => {
       }
     }
   }
-  
-
 }
 
 // 响应式调整
