@@ -90,8 +90,6 @@
 
 如需自定义本地环境变量，可在项目根目录下新建 `.env.local` 文件。一般情况下无需手动创建。
 
-> 推荐使用 [Visual Studio Code](https://code.visualstudio.com/) 编辑器进行开发，配合官方 Vue、ESLint、Prettier 等插件获得更佳体验。
-
 ---
 
 如需自定义部署或二次开发，可 fork 本仓库后根据自身需求修改页面内容与样式。 
